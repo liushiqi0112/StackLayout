@@ -99,6 +99,9 @@ public class MainActivity extends AppCompatActivity {
     class Adapter extends StackLayout.Adapter<Adapter.ViewHolder>{
         List<String> mData;
 
+
+
+
         public void setData(List<String> data) {
             mData = data;
         }
