@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srl_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <com.fashare.stack_layout.StackLayout
+        android:id="@+id/stack_layout"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"/>
+
+</android.support.v4.widget.SwipeRefreshLayout>
